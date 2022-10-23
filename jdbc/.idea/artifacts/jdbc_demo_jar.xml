@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="jdbc-demo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/jdbc_demo_jar</output-path>
+    <root id="root">
+      <element id="archive" name="jdbc-demo.jar">
+        <element id="module-output" name="jdbc-demo" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/jdbc-demo/lib/druid-1.2.9.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/jdbc-demo/lib/commons-lang3-3.12.0.jar" />
+      <element id="library" level="project" name="opencsv-5.7.0" />
+      <element id="file-copy" path="$PROJECT_DIR$/jdbc-demo/lib/mysql-connector-j-8.0.31.jar" />
+    </root>
+  </artifact>
+</component>
